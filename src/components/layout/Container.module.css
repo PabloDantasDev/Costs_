@@ -1,0 +1,24 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    
+}
+
+.min-height{
+    min-height: 75%;
+}
+
+.start{
+    justify-content: flex-start;
+
+}
+
+.colunm{
+    flex-direction: column;
+
+    justify-content: flex-start;
+}

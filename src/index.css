@@ -6,14 +6,18 @@
     outline: none;
     list-style: none;
     text-decoration: none;
-
+    user-select: none;
 
 }
 
 html,body,root{
+    
     background-color: white;
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+
     
     
 }
