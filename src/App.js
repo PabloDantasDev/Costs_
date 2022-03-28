@@ -9,11 +9,11 @@ import Footer from './components/layout/Footer/Footer';
 import NavBar from './components/layout/NavBar/NavBar';
 
 //PAGINAS----------
-import Contato from './components/pages/Contato';
-import Home from './components/pages/Home';
-import NewProject from './components/pages/NewProject';
-import Sobre from './components/pages/Sobre';
-import Project from './components/pages/Projects';
+import Contato from './components/pages/Contact/Contato';
+import Home from './components/pages/Home/Home';
+import NewProject from './components/pages/NewProject/NewProject';
+import Sobre from './components/pages/About/Sobre';
+import Project from './components/pages/Project/Projects';
 
 //CONTAINER 
 

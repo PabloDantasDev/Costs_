@@ -17,7 +17,8 @@ html,body,root{
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: row;
-
+    scroll-behavior: smooth;
     
     
 }
+
