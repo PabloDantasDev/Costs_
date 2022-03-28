@@ -2,7 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    
+    
 }
+
 
 
 .logo{
@@ -19,16 +23,20 @@
 .titleSub h1{
     color:  rgb(245, 221, 4);
 }
+
 .btn{
     margin-top: 20px;
+   padding: 12px;
+   
 }
 
 .btnHome{
     background-color: rgb(245, 221, 4);
-    padding: 14px;
+    padding: 12px;
     border-radius: 50px 0px;
     color: black;
     font-weight: bold;
+    
 }
 .btnHome:hover{
  color: rgb(255, 255, 255);  

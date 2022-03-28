@@ -7,9 +7,31 @@
     list-style: none;
     text-decoration: none;
     user-select: none;
+    overflow-x: hidden;
 
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0); 
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(243, 229, 26); 
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #eefd1f; 
+  }
 html,body,root{
     
     background-color: white;
