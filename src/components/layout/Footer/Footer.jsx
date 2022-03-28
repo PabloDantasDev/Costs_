@@ -17,17 +17,18 @@ function Footer() {
                 <Link  to='/'><img className={style.logo} src={logo} alt="Costs Logo" /></Link>
                 
                 <div className={style.midias}>
-                <p >Nossas Redes Sociais</p>
+                <p className={style.titleRedes} >Nossas Redes Sociais</p>
                 <div className={style.logoMidias}> 
                 <FaFacebook></FaFacebook>
                 <FaLinkedin></FaLinkedin>
-                 <FaInstagram></FaInstagram>
+                <FaInstagram></FaInstagram>
+                <p><span>COSTS</span> &copy; Todos os Direitos Resevados 2022</p>
                  </div>
                 </div>
               
 
                 <ul className={style.list}>
-                    <p>Links Rapidos</p>
+                    <p className={style.linksRapidos}>LINKS RAPIDOS</p>
                     <li>
                         <Link className={style.links} to='/'>HOME</Link>
                     </li>
