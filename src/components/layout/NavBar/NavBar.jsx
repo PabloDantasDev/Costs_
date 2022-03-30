@@ -20,10 +20,13 @@ function NavBar() {
                         <Link className={style.links} to='/'>HOME</Link>
                     </li>
                     <li>
-                        <Link className={style.links} to='/project'>PROJETOS</Link>
+                        <Link className={style.links} to='/novoprojeto'>CRIAR PROJETO</Link>
+                    </li>
+                    <li>
+                        <Link className={style.links} to='/projetos'>PROJETOS</Link>
                     </li>
 
-                    <li>
+                    <li>    
                         <Link className={style.links} to='/contato'>CONTATO</Link>
                     </li>
 

@@ -1,0 +1,22 @@
+.buttonStyle{
+    background-color:gold;
+    border: none;
+    width: 100%;
+    padding: 1em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+.buttonStyle:hover{
+    background-color:black;
+    border: none;
+    width: 100%;
+    padding: 1em;
+    font-weight: bold;
+    color: gold;
+    border-radius: 5px;
+    cursor: pointer;
+}

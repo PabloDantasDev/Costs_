@@ -1,9 +1,10 @@
+import Style from'./Project.module.css'
+
 function Project(){
     return (
-        <>
-            <h1>Project</h1>
+       <div className={Style.container_view}>
 
-        </>
+       </div>
     )
 }
 export default Project

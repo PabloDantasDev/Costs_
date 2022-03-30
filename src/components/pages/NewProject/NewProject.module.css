@@ -1,0 +1,21 @@
+.newproject_project{
+
+    background-color: rgba(243, 240, 240, 0.404);
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 3em;
+ 
+    
+}
+
+ 
+.new_projectContainer h1{
+    margin-bottom: 0.5em;
+
+}
+
+.new_projectContainer p{
+    color: #7b7b7b;
+
+}
